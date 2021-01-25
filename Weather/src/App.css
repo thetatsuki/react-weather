@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style-type: none;
+}
+body {
+    background-color: #F6F6F8;
+    color: rgb(219, 219, 219);
+}
+/* для инок */
+i img {
+    width: 16px;
+    height: 16px;
+    /* background-color: green; */
+}
+
+.swtichTheme img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.button {
+    font-size: 2.5vh;
+    margin: 0.5% 35%;
+    position:absolute;
+}
+
+
+.dark {
+    background-color: rgb(100, 99, 99);
+}
+
+.dark .weather, .dark .weather input {
+    box-shadow: none;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.dark .infoWeather {
+    color: white;
+}
+
+
+
+
+
+.weather {
+    box-shadow: 0 0 30px 0.5px;
+    display: flex;
+    margin: 3% 35%;
+    padding: 50px 60px;
+    height: 90vh;
+    width: 27%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+
+.weather__input input {
+    /* background-color: black; */
+    color: black;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: 500;
+    width: 60%;
+}
+.weather__input img {
+    margin-bottom: 3px;
+}
+
+
+
+
+.infoWeather {
+    color: black;
+}
+.infoWeather h1 {
+    /* font-weight: 600; */
+    font-size: 45px;
+}
+.infoWeather p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.infoWeather img {
+    margin: 50px 20px;
+    width: 190px;
+}
+.img {
+    background-image: url("./assets/days/sunny.svg");
+}
+hr {
+    margin-bottom: 1px;
+    border: 1px solid silver;
+}
+.info_weather {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.info_weather p {
+    color: rgb(148, 148, 148);
+}
+.info_weather img {
+    width: 50px;
+    margin-top: 40px;
+    margin-left: -1px;
+}
+
+
+
+
+
+
+
+
